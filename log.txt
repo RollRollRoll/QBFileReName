@@ -1,0 +1,84 @@
+2022-04-12 21:38:44,654 - 据说名字长一点容易被人记住 - INFO - 单文件处理
+2022-04-12 21:38:44,654 - 据说名字长一点容易被人记住 - INFO - /Users/chenjinfan/Project/PycharmProjects/qbChangeFileName/files/平家物语（2021）/Season1/[HYSUB][Tomodachi Game][01v2][GB_MP4][1280X720].mp4
+2022-04-12 21:38:44,654 - 据说名字长一点容易被人记住 - INFO - ('解析文件', '/Users/chenjinfan/Project/PycharmProjects/qbChangeFileName/files/平家物语（2021）/Season1/[HYSUB][Tomodachi Game][01v2][GB_MP4][1280X720].mp4')
+2022-04-12 21:38:44,656 - 据说名字长一点容易被人记住 - INFO - 平家物语（2021） - S01E01 - [HYSUB][Tomodachi Game][01v2][GB_MP4][1280X720].mp4
+2022-04-12 21:38:44,656 - 据说名字长一点容易被人记住 - INFO - 重命名延迟等待中...
+2022-04-12 21:38:45,661 - 据说名字长一点容易被人记住 - INFO - ('file_lists', [['/Users/chenjinfan/Project/PycharmProjects/qbChangeFileName/files/平家物语（2021）/Season1/[HYSUB][Tomodachi Game][01v2][GB_MP4][1280X720].mp4', '/Users/chenjinfan/Project/PycharmProjects/qbChangeFileName/files/平家物语（2021）/Season1/平家物语（2021） - S01E01 - [HYSUB][Tomodachi Game][01v2][GB_MP4][1280X720].mp4']])
+2022-04-12 21:38:45,662 - 据说名字长一点容易被人记住 - INFO - 运行完毕
+2022-04-12 21:39:03,668 - rename - INFO - 单文件处理
+2022-04-12 21:39:03,668 - rename - INFO - /Users/chenjinfan/Project/PycharmProjects/qbChangeFileName/files/平家物语（2021）/Season1/[HYSUB][Tomodachi Game][01v2][GB_MP4][1280X720].mp4
+2022-04-12 21:39:03,668 - rename - INFO - ('解析文件', '/Users/chenjinfan/Project/PycharmProjects/qbChangeFileName/files/平家物语（2021）/Season1/[HYSUB][Tomodachi Game][01v2][GB_MP4][1280X720].mp4')
+2022-04-12 21:39:03,670 - rename - INFO - 平家物语（2021） - S01E01 - [HYSUB][Tomodachi Game][01v2][GB_MP4][1280X720].mp4
+2022-04-12 21:39:03,670 - rename - INFO - 重命名延迟等待中...
+2022-04-12 21:39:04,675 - rename - INFO - ('file_lists', [['/Users/chenjinfan/Project/PycharmProjects/qbChangeFileName/files/平家物语（2021）/Season1/[HYSUB][Tomodachi Game][01v2][GB_MP4][1280X720].mp4', '/Users/chenjinfan/Project/PycharmProjects/qbChangeFileName/files/平家物语（2021）/Season1/平家物语（2021） - S01E01 - [HYSUB][Tomodachi Game][01v2][GB_MP4][1280X720].mp4']])
+2022-04-12 21:39:04,675 - rename - INFO - 运行完毕
+2022-04-13 09:41:51,310 - rename - INFO - 文件夹处理
+2022-04-13 09:41:51,310 - rename - INFO - /Users/chenjinfan/Project/PycharmProjects/qbChangeFileName/files/平家物语（2021）/Season2/[Nekomoe kissaten_LoliHouse] Heike Monogatari [WebRip 1080p HEVC-10bit AAC ASSx2]
+2022-04-13 09:41:51,311 - rename - INFO - ('解析文件', '/Users/chenjinfan/Project/PycharmProjects/qbChangeFileName/files/平家物语（2021）/Season2/[Nekomoe kissaten_LoliHouse] Heike Monogatari [WebRip 1080p HEVC-10bit AAC ASSx2]/[Nekomoe kissaten_LoliHouse] Heike Monogatari - 02 [WebRip 1080p HEVC-10bit AAC ASSx2].mkv')
+2022-04-13 09:41:51,313 - rename - INFO - 括号内未识别, 开始寻找括号外内容
+2022-04-13 09:41:51,313 - rename - INFO - 找末尾是数字的子字符串
+2022-04-13 09:41:51,313 - rename - INFO - <re.Match object; span=(0, 2), match='02'>
+2022-04-13 09:41:51,313 - rename - INFO - ('02', '02')
+2022-04-13 09:41:51,314 - rename - INFO - 平家物语（2021） - S02E02 - [Nekomoe kissaten_LoliHouse] Heike Monogatari - 02 [WebRip 1080p HEVC-10bit AAC ASSx2].mkv
+2022-04-13 09:41:51,314 - rename - INFO - ('解析文件', '/Users/chenjinfan/Project/PycharmProjects/qbChangeFileName/files/平家物语（2021）/Season2/[Nekomoe kissaten_LoliHouse] Heike Monogatari [WebRip 1080p HEVC-10bit AAC ASSx2]/[Nekomoe kissaten_LoliHouse] Heike Monogatari - 07 [WebRip 1080p HEVC-10bit AAC ASSx2].mkv')
+2022-04-13 09:41:51,314 - rename - INFO - 括号内未识别, 开始寻找括号外内容
+2022-04-13 09:41:51,314 - rename - INFO - 找末尾是数字的子字符串
+2022-04-13 09:41:51,314 - rename - INFO - <re.Match object; span=(0, 2), match='07'>
+2022-04-13 09:41:51,314 - rename - INFO - ('02', '07')
+2022-04-13 09:41:51,314 - rename - INFO - 平家物语（2021） - S02E07 - [Nekomoe kissaten_LoliHouse] Heike Monogatari - 07 [WebRip 1080p HEVC-10bit AAC ASSx2].mkv
+2022-04-13 09:41:51,314 - rename - INFO - ('解析文件', '/Users/chenjinfan/Project/PycharmProjects/qbChangeFileName/files/平家物语（2021）/Season2/[Nekomoe kissaten_LoliHouse] Heike Monogatari [WebRip 1080p HEVC-10bit AAC ASSx2]/[Nekomoe kissaten_LoliHouse] Heike Monogatari - 09 [WebRip 1080p HEVC-10bit AAC ASSx2].mkv')
+2022-04-13 09:41:51,314 - rename - INFO - 括号内未识别, 开始寻找括号外内容
+2022-04-13 09:41:51,314 - rename - INFO - 找末尾是数字的子字符串
+2022-04-13 09:41:51,314 - rename - INFO - <re.Match object; span=(0, 2), match='09'>
+2022-04-13 09:41:51,314 - rename - INFO - ('02', '09')
+2022-04-13 09:41:51,314 - rename - INFO - 平家物语（2021） - S02E09 - [Nekomoe kissaten_LoliHouse] Heike Monogatari - 09 [WebRip 1080p HEVC-10bit AAC ASSx2].mkv
+2022-04-13 09:41:51,314 - rename - INFO - ('解析文件', '/Users/chenjinfan/Project/PycharmProjects/qbChangeFileName/files/平家物语（2021）/Season2/[Nekomoe kissaten_LoliHouse] Heike Monogatari [WebRip 1080p HEVC-10bit AAC ASSx2]/[Nekomoe kissaten_LoliHouse] Heike Monogatari - 04 [WebRip 1080p HEVC-10bit AAC ASSx2].mkv')
+2022-04-13 09:41:51,314 - rename - INFO - 括号内未识别, 开始寻找括号外内容
+2022-04-13 09:41:51,314 - rename - INFO - 找末尾是数字的子字符串
+2022-04-13 09:41:51,314 - rename - INFO - <re.Match object; span=(0, 2), match='04'>
+2022-04-13 09:41:51,314 - rename - INFO - ('02', '04')
+2022-04-13 09:41:51,314 - rename - INFO - 平家物语（2021） - S02E04 - [Nekomoe kissaten_LoliHouse] Heike Monogatari - 04 [WebRip 1080p HEVC-10bit AAC ASSx2].mkv
+2022-04-13 09:41:51,314 - rename - INFO - ('解析文件', '/Users/chenjinfan/Project/PycharmProjects/qbChangeFileName/files/平家物语（2021）/Season2/[Nekomoe kissaten_LoliHouse] Heike Monogatari [WebRip 1080p HEVC-10bit AAC ASSx2]/[Nekomoe kissaten_LoliHouse] Heike Monogatari - 11 [WebRip 1080p HEVC-10bit AAC ASSx2].mkv')
+2022-04-13 09:41:51,314 - rename - INFO - 括号内未识别, 开始寻找括号外内容
+2022-04-13 09:41:51,314 - rename - INFO - 找末尾是数字的子字符串
+2022-04-13 09:41:51,314 - rename - INFO - <re.Match object; span=(0, 2), match='11'>
+2022-04-13 09:41:51,314 - rename - INFO - ('02', '11')
+2022-04-13 09:41:51,314 - rename - INFO - 平家物语（2021） - S02E11 - [Nekomoe kissaten_LoliHouse] Heike Monogatari - 11 [WebRip 1080p HEVC-10bit AAC ASSx2].mkv
+2022-04-13 09:41:51,314 - rename - INFO - 重命名延迟等待中...
+2022-04-13 09:41:52,318 - rename - INFO - ('file_lists', [['/Users/chenjinfan/Project/PycharmProjects/qbChangeFileName/files/平家物语（2021）/Season2/[Nekomoe kissaten_LoliHouse] Heike Monogatari [WebRip 1080p HEVC-10bit AAC ASSx2]/[Nekomoe kissaten_LoliHouse] Heike Monogatari - 02 [WebRip 1080p HEVC-10bit AAC ASSx2].mkv', '/Users/chenjinfan/Project/PycharmProjects/qbChangeFileName/files/平家物语（2021）/Season2/平家物语（2021） - S02E02 - [Nekomoe kissaten_LoliHouse] Heike Monogatari - 02 [WebRip 1080p HEVC-10bit AAC ASSx2].mkv'], ['/Users/chenjinfan/Project/PycharmProjects/qbChangeFileName/files/平家物语（2021）/Season2/[Nekomoe kissaten_LoliHouse] Heike Monogatari [WebRip 1080p HEVC-10bit AAC ASSx2]/[Nekomoe kissaten_LoliHouse] Heike Monogatari - 07 [WebRip 1080p HEVC-10bit AAC ASSx2].mkv', '/Users/chenjinfan/Project/PycharmProjects/qbChangeFileName/files/平家物语（2021）/Season2/平家物语（2021） - S02E07 - [Nekomoe kissaten_LoliHouse] Heike Monogatari - 07 [WebRip 1080p HEVC-10bit AAC ASSx2].mkv'], ['/Users/chenjinfan/Project/PycharmProjects/qbChangeFileName/files/平家物语（2021）/Season2/[Nekomoe kissaten_LoliHouse] Heike Monogatari [WebRip 1080p HEVC-10bit AAC ASSx2]/[Nekomoe kissaten_LoliHouse] Heike Monogatari - 09 [WebRip 1080p HEVC-10bit AAC ASSx2].mkv', '/Users/chenjinfan/Project/PycharmProjects/qbChangeFileName/files/平家物语（2021）/Season2/平家物语（2021） - S02E09 - [Nekomoe kissaten_LoliHouse] Heike Monogatari - 09 [WebRip 1080p HEVC-10bit AAC ASSx2].mkv'], ['/Users/chenjinfan/Project/PycharmProjects/qbChangeFileName/files/平家物语（2021）/Season2/[Nekomoe kissaten_LoliHouse] Heike Monogatari [WebRip 1080p HEVC-10bit AAC ASSx2]/[Nekomoe kissaten_LoliHouse] Heike Monogatari - 04 [WebRip 1080p HEVC-10bit AAC ASSx2].mkv', '/Users/chenjinfan/Project/PycharmProjects/qbChangeFileName/files/平家物语（2021）/Season2/平家物语（2021） - S02E04 - [Nekomoe kissaten_LoliHouse] Heike Monogatari - 04 [WebRip 1080p HEVC-10bit AAC ASSx2].mkv'], ['/Users/chenjinfan/Project/PycharmProjects/qbChangeFileName/files/平家物语（2021）/Season2/[Nekomoe kissaten_LoliHouse] Heike Monogatari [WebRip 1080p HEVC-10bit AAC ASSx2]/[Nekomoe kissaten_LoliHouse] Heike Monogatari - 11 [WebRip 1080p HEVC-10bit AAC ASSx2].mkv', '/Users/chenjinfan/Project/PycharmProjects/qbChangeFileName/files/平家物语（2021）/Season2/平家物语（2021） - S02E11 - [Nekomoe kissaten_LoliHouse] Heike Monogatari - 11 [WebRip 1080p HEVC-10bit AAC ASSx2].mkv']])
+2022-04-13 09:41:52,326 - rename - INFO - 运行完毕
+2022-04-13 09:43:06,658 - rename - INFO - 文件夹处理
+2022-04-13 09:43:06,659 - rename - INFO - /Users/chenjinfan/Project/PycharmProjects/qbChangeFileName/files/平家物语（2021）/Season2/[Nekomoe kissaten_LoliHouse] Heike Monogatari [WebRip 1080p HEVC-10bit AAC ASSx2]
+2022-04-13 09:43:06,659 - rename - INFO - ('解析文件', '/Users/chenjinfan/Project/PycharmProjects/qbChangeFileName/files/平家物语（2021）/Season2/[Nekomoe kissaten_LoliHouse] Heike Monogatari [WebRip 1080p HEVC-10bit AAC ASSx2]/[Nekomoe kissaten_LoliHouse] Heike Monogatari - 02 [WebRip 1080p HEVC-10bit AAC ASSx2].mkv')
+2022-04-13 09:43:06,661 - rename - INFO - 括号内未识别, 开始寻找括号外内容
+2022-04-13 09:43:06,661 - rename - INFO - 找末尾是数字的子字符串
+2022-04-13 09:43:06,661 - rename - INFO - <re.Match object; span=(0, 2), match='02'>
+2022-04-13 09:43:06,661 - rename - INFO - ('02', '02')
+2022-04-13 09:43:06,661 - rename - INFO - 平家物语（2021） - S02E02 - [Nekomoe kissaten_LoliHouse] Heike Monogatari - 02 [WebRip 1080p HEVC-10bit AAC ASSx2].mkv
+2022-04-13 09:43:06,661 - rename - INFO - ('解析文件', '/Users/chenjinfan/Project/PycharmProjects/qbChangeFileName/files/平家物语（2021）/Season2/[Nekomoe kissaten_LoliHouse] Heike Monogatari [WebRip 1080p HEVC-10bit AAC ASSx2]/[Nekomoe kissaten_LoliHouse] Heike Monogatari - 07 [WebRip 1080p HEVC-10bit AAC ASSx2].mkv')
+2022-04-13 09:43:06,661 - rename - INFO - 括号内未识别, 开始寻找括号外内容
+2022-04-13 09:43:06,661 - rename - INFO - 找末尾是数字的子字符串
+2022-04-13 09:43:06,661 - rename - INFO - <re.Match object; span=(0, 2), match='07'>
+2022-04-13 09:43:06,662 - rename - INFO - ('02', '07')
+2022-04-13 09:43:06,662 - rename - INFO - 平家物语（2021） - S02E07 - [Nekomoe kissaten_LoliHouse] Heike Monogatari - 07 [WebRip 1080p HEVC-10bit AAC ASSx2].mkv
+2022-04-13 09:43:06,662 - rename - INFO - ('解析文件', '/Users/chenjinfan/Project/PycharmProjects/qbChangeFileName/files/平家物语（2021）/Season2/[Nekomoe kissaten_LoliHouse] Heike Monogatari [WebRip 1080p HEVC-10bit AAC ASSx2]/[Nekomoe kissaten_LoliHouse] Heike Monogatari - 09 [WebRip 1080p HEVC-10bit AAC ASSx2].mkv')
+2022-04-13 09:43:06,662 - rename - INFO - 括号内未识别, 开始寻找括号外内容
+2022-04-13 09:43:06,662 - rename - INFO - 找末尾是数字的子字符串
+2022-04-13 09:43:06,662 - rename - INFO - <re.Match object; span=(0, 2), match='09'>
+2022-04-13 09:43:06,662 - rename - INFO - ('02', '09')
+2022-04-13 09:43:06,662 - rename - INFO - 平家物语（2021） - S02E09 - [Nekomoe kissaten_LoliHouse] Heike Monogatari - 09 [WebRip 1080p HEVC-10bit AAC ASSx2].mkv
+2022-04-13 09:43:06,662 - rename - INFO - ('解析文件', '/Users/chenjinfan/Project/PycharmProjects/qbChangeFileName/files/平家物语（2021）/Season2/[Nekomoe kissaten_LoliHouse] Heike Monogatari [WebRip 1080p HEVC-10bit AAC ASSx2]/[Nekomoe kissaten_LoliHouse] Heike Monogatari - 04 [WebRip 1080p HEVC-10bit AAC ASSx2].mkv')
+2022-04-13 09:43:06,662 - rename - INFO - 括号内未识别, 开始寻找括号外内容
+2022-04-13 09:43:06,662 - rename - INFO - 找末尾是数字的子字符串
+2022-04-13 09:43:06,662 - rename - INFO - <re.Match object; span=(0, 2), match='04'>
+2022-04-13 09:43:06,662 - rename - INFO - ('02', '04')
+2022-04-13 09:43:06,662 - rename - INFO - 平家物语（2021） - S02E04 - [Nekomoe kissaten_LoliHouse] Heike Monogatari - 04 [WebRip 1080p HEVC-10bit AAC ASSx2].mkv
+2022-04-13 09:43:06,662 - rename - INFO - ('解析文件', '/Users/chenjinfan/Project/PycharmProjects/qbChangeFileName/files/平家物语（2021）/Season2/[Nekomoe kissaten_LoliHouse] Heike Monogatari [WebRip 1080p HEVC-10bit AAC ASSx2]/[Nekomoe kissaten_LoliHouse] Heike Monogatari - 11 [WebRip 1080p HEVC-10bit AAC ASSx2].mkv')
+2022-04-13 09:43:06,662 - rename - INFO - 括号内未识别, 开始寻找括号外内容
+2022-04-13 09:43:06,662 - rename - INFO - 找末尾是数字的子字符串
+2022-04-13 09:43:06,662 - rename - INFO - <re.Match object; span=(0, 2), match='11'>
+2022-04-13 09:43:06,662 - rename - INFO - ('02', '11')
+2022-04-13 09:43:06,662 - rename - INFO - 平家物语（2021） - S02E11 - [Nekomoe kissaten_LoliHouse] Heike Monogatari - 11 [WebRip 1080p HEVC-10bit AAC ASSx2].mkv
+2022-04-13 09:43:06,662 - rename - INFO - 重命名延迟等待中...
+2022-04-13 09:43:07,664 - rename - INFO - ('file_lists', [['/Users/chenjinfan/Project/PycharmProjects/qbChangeFileName/files/平家物语（2021）/Season2/[Nekomoe kissaten_LoliHouse] Heike Monogatari [WebRip 1080p HEVC-10bit AAC ASSx2]/[Nekomoe kissaten_LoliHouse] Heike Monogatari - 02 [WebRip 1080p HEVC-10bit AAC ASSx2].mkv', '/Users/chenjinfan/Project/PycharmProjects/qbChangeFileName/files/平家物语（2021）/Season2/平家物语（2021） - S02E02 - [Nekomoe kissaten_LoliHouse] Heike Monogatari - 02 [WebRip 1080p HEVC-10bit AAC ASSx2].mkv'], ['/Users/chenjinfan/Project/PycharmProjects/qbChangeFileName/files/平家物语（2021）/Season2/[Nekomoe kissaten_LoliHouse] Heike Monogatari [WebRip 1080p HEVC-10bit AAC ASSx2]/[Nekomoe kissaten_LoliHouse] Heike Monogatari - 07 [WebRip 1080p HEVC-10bit AAC ASSx2].mkv', '/Users/chenjinfan/Project/PycharmProjects/qbChangeFileName/files/平家物语（2021）/Season2/平家物语（2021） - S02E07 - [Nekomoe kissaten_LoliHouse] Heike Monogatari - 07 [WebRip 1080p HEVC-10bit AAC ASSx2].mkv'], ['/Users/chenjinfan/Project/PycharmProjects/qbChangeFileName/files/平家物语（2021）/Season2/[Nekomoe kissaten_LoliHouse] Heike Monogatari [WebRip 1080p HEVC-10bit AAC ASSx2]/[Nekomoe kissaten_LoliHouse] Heike Monogatari - 09 [WebRip 1080p HEVC-10bit AAC ASSx2].mkv', '/Users/chenjinfan/Project/PycharmProjects/qbChangeFileName/files/平家物语（2021）/Season2/平家物语（2021） - S02E09 - [Nekomoe kissaten_LoliHouse] Heike Monogatari - 09 [WebRip 1080p HEVC-10bit AAC ASSx2].mkv'], ['/Users/chenjinfan/Project/PycharmProjects/qbChangeFileName/files/平家物语（2021）/Season2/[Nekomoe kissaten_LoliHouse] Heike Monogatari [WebRip 1080p HEVC-10bit AAC ASSx2]/[Nekomoe kissaten_LoliHouse] Heike Monogatari - 04 [WebRip 1080p HEVC-10bit AAC ASSx2].mkv', '/Users/chenjinfan/Project/PycharmProjects/qbChangeFileName/files/平家物语（2021）/Season2/平家物语（2021） - S02E04 - [Nekomoe kissaten_LoliHouse] Heike Monogatari - 04 [WebRip 1080p HEVC-10bit AAC ASSx2].mkv'], ['/Users/chenjinfan/Project/PycharmProjects/qbChangeFileName/files/平家物语（2021）/Season2/[Nekomoe kissaten_LoliHouse] Heike Monogatari [WebRip 1080p HEVC-10bit AAC ASSx2]/[Nekomoe kissaten_LoliHouse] Heike Monogatari - 11 [WebRip 1080p HEVC-10bit AAC ASSx2].mkv', '/Users/chenjinfan/Project/PycharmProjects/qbChangeFileName/files/平家物语（2021）/Season2/平家物语（2021） - S02E11 - [Nekomoe kissaten_LoliHouse] Heike Monogatari - 11 [WebRip 1080p HEVC-10bit AAC ASSx2].mkv']])
+2022-04-13 09:43:07,668 - rename - INFO - 运行完毕
