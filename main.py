@@ -5,6 +5,7 @@ import platform
 import sys
 import re
 import time
+import shutil
 from itertools import product
 
 def logger_config(log_path,logging_name):
@@ -134,7 +135,7 @@ for op, value in opts:
 # 重命名的文件移动到season目录下
 move_up_to_season_folder = True
 # 重命名延迟(秒) 配合qb使用的参数, 默认为15秒
-rename_delay = 1
+rename_delay = 30
 
 if not save_dir:
     # 没有路径参数直接退出
@@ -383,76 +384,76 @@ def get_season_path(file_path):
 
 
 # 多季集数修正
-# def ep_offset_patch(file_path, ep):
-#     b = os.path.dirname(file_path.replace('\\', '/'))
-#     offset = None
-#     while (b):
-#         if offset:
-#             break
-#         if not '/' in b:
-#             break
-#         b, fo = b.rsplit('/', 1)
-#         offset = None
-#         if get_season(fo):
-#             try:
-#                 for fn in os.listdir(b + '/' + fo):
-#                     if fn.lower() != 'all.txt':
-#                         continue
-#                     with open(b + '/' + fo + '/' + fn, encoding='utf-8') as f:
-#                         offset = int(f.read().strip())
-#                         break
-#             except Exception as e:
-#                 logger.info(f"{'集数修正报错了', e}")
-#                 return ep
-#     # 没有找到all.txt 尝试寻找qb-rss-manager的配置文件
-#     # 1. config_ern.json 配置
-#     # 2. 这两个exe在同一个目录下, 直接读取配置
-#     if not offset:
-#         qrm_config = None
-#         config_ern_path_tmp = os.path.join(application_path, 'config_ern.json')
-#         config_path_tmp = os.path.join(application_path, 'config.json')
-#         if os.path.exists(config_ern_path_tmp):
-#             try:
-#                 with open(config_ern_path_tmp, encoding='utf-8') as f:
-#                     qrm_config_file = json.loads(f.read())['qrm_config_file']
-#                 with open(qrm_config_file, encoding='utf-8') as f:
-#                     qrm_config = json.loads(f.read())
-#             except Exception as e:
-#                 logger.info(f"{'config_ern.json 读取错误', e}")
-#         elif os.path.exists(config_path_tmp):
-#
-#             try:
-#                 with open(config_path_tmp, encoding='utf-8') as f:
-#                     qrm_config = json.loads(f.read())
-#             except Exception as e:
-#                 logger.info(f'{e}')
-#         if qrm_config:
-#             # logger.info(f"{'qrm_config', qrm_config}")
-#             # logger.info(f"{'file_path', file_path}")
-#             season_path = get_season_path(file_path)
-#             # logger.info(f"{'season_path', season_path}")
-#             for x in qrm_config['data_list']:
-#                 if format_path(x[5]) == format_path(season_path):
-#                     if x[4]:
-#                         try:
-#                             offset = int(x[4])
-#                             logger.info(f"{'QRM获取到offset', offset}")
-#                         except:
-#                             pass
-#
-#     if offset:
-#         if '.' in ep:
-#             ep_int, ep_tail = ep.split('.')
-#             ep_int = int(ep_int)
-#             if int(ep_int) >= offset:
-#                 ep_int = ep_int - offset
-#                 ep = str(ep_int) + '.' + ep_tail
-#         else:
-#             ep_int = int(ep)
-#             if ep_int >= offset:
-#                 ep = str(ep_int - offset)
-#
-#     return zero_fix(ep)
+def ep_offset_patch(file_path, ep):
+    b = os.path.dirname(file_path.replace('\\', '/'))
+    offset = None
+    while (b):
+        if offset:
+            break
+        if not '/' in b:
+            break
+        b, fo = b.rsplit('/', 1)
+        offset = None
+        if get_season(fo):
+            try:
+                for fn in os.listdir(b + '/' + fo):
+                    if fn.lower() != 'all.txt':
+                        continue
+                    with open(b + '/' + fo + '/' + fn, encoding='utf-8') as f:
+                        offset = int(f.read().strip())
+                        break
+            except Exception as e:
+                logger.info(f"{'集数修正报错了', e}")
+                return ep
+    # 没有找到all.txt 尝试寻找qb-rss-manager的配置文件
+    # 1. config_ern.json 配置
+    # 2. 这两个exe在同一个目录下, 直接读取配置
+    # if not offset:
+    #     qrm_config = None
+    #     config_ern_path_tmp = os.path.join(application_path, 'config_ern.json')
+    #     config_path_tmp = os.path.join(application_path, 'config.json')
+    #     if os.path.exists(config_ern_path_tmp):
+    #         try:
+    #             with open(config_ern_path_tmp, encoding='utf-8') as f:
+    #                 qrm_config_file = json.loads(f.read())['qrm_config_file']
+    #             with open(qrm_config_file, encoding='utf-8') as f:
+    #                 qrm_config = json.loads(f.read())
+    #         except Exception as e:
+    #             logger.info(f"{'config_ern.json 读取错误', e}")
+    #     elif os.path.exists(config_path_tmp):
+    #
+    #         try:
+    #             with open(config_path_tmp, encoding='utf-8') as f:
+    #                 qrm_config = json.loads(f.read())
+    #         except Exception as e:
+    #             logger.info(f'{e}')
+    #     if qrm_config:
+    #         # logger.info(f"{'qrm_config', qrm_config}")
+    #         # logger.info(f"{'file_path', file_path}")
+    #         season_path = get_season_path(file_path)
+    #         # logger.info(f"{'season_path', season_path}")
+    #         for x in qrm_config['data_list']:
+    #             if format_path(x[5]) == format_path(season_path):
+    #                 if x[4]:
+    #                     try:
+    #                         offset = int(x[4])
+    #                         logger.info(f"{'QRM获取到offset', offset}")
+    #                     except:
+    #                         pass
+
+    if offset:
+        if '.' in ep:
+            ep_int, ep_tail = ep.split('.')
+            ep_int = int(ep_int)
+            if int(ep_int) >= offset:
+                ep_int = ep_int - offset
+                ep = str(ep_int) + '.' + ep_tail
+        else:
+            ep_int = int(ep)
+            if ep_int >= offset:
+                ep = str(ep_int - offset)
+
+    return zero_fix(ep)
 
 
 # 统一补0
@@ -602,7 +603,7 @@ if classification == "Anime":
                 # 重命名
                 if season and ep:
                     # 修正集数
-                    # ep = ep_offset_patch(file_path, ep)
+                    ep = ep_offset_patch(file_path, ep)
                     new_name = os.path.basename(os.path.dirname(save_dir)) + " - " 'S' + season + 'E' + ep + " - " + file_name + '.' + fix_ext(ext)
                     logger.info(f'{new_name}')
                     if move_up_to_season_folder:
@@ -624,7 +625,7 @@ if classification == "Anime":
             season, ep = get_season_and_ep(file_path)
             if season and ep:
                 # 修正集数
-                # ep = ep_offset_patch(file_path, ep)
+                ep = ep_offset_patch(file_path, ep)
                 new_name = os.path.basename(os.path.dirname(save_dir)) + " - " 'S' + season + 'E' + ep + " - " + file_name + '.' + fix_ext(ext)
                 logger.info(f'{new_name}')
                 if move_up_to_season_folder:
@@ -663,8 +664,18 @@ for old, new in file_lists:
         # 临时文件重命名
         os.rename(tmp_name, new)
 
-        if not os.listdir(content_dir):
-            os.removedirs(content_dir)
+        if os.path.isdir(content_dir):
+            if not os.listdir(content_dir):
+                os.removedirs(content_dir)
+            else:
+                canRemove = True
+                for root, dirs, files in os.walk(content_dir, False):
+                    for name in files:
+                        file_name, ext = get_file_name_ext(name)
+                        if ext in COMMON_MEDIA_EXTS or ext in COMMON_CAPTION_EXTS or ext in COMPOUND_EXTS:
+                            canRemove = False
+                if canRemove:
+                    shutil.rmtree(content_dir, ignore_errors=True)
 
     except:
         pass
