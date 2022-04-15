@@ -36,7 +36,7 @@ def logger_config(log_path,logging_name):
     logger.addHandler(console)
     return logger
 
-logger = logger_config(log_path='log.txt', logging_name='rename')
+logger = logger_config(log_path='./log.txt', logging_name='rename')
 
 starts_with_rules = [
     ['[GM-Team]',
@@ -604,7 +604,7 @@ if classification == "Anime":
                 if season and ep:
                     # 修正集数
                     ep = ep_offset_patch(file_path, ep)
-                    new_name = os.path.basename(os.path.dirname(save_dir)) + " - " 'S' + season + 'E' + ep + " - " + file_name + '.' + fix_ext(ext)
+                    new_name = os.path.basename(os.path.dirname(save_dir)) + " - " + 'S' + season + 'E' + ep + " - " + file_name + '.' + fix_ext(ext)
                     logger.info(f'{new_name}')
                     if move_up_to_season_folder:
                         new_path = get_season_path(file_path) + '/' + new_name
@@ -626,10 +626,60 @@ if classification == "Anime":
             if season and ep:
                 # 修正集数
                 ep = ep_offset_patch(file_path, ep)
-                new_name = os.path.basename(os.path.dirname(save_dir)) + " - " 'S' + season + 'E' + ep + " - " + file_name + '.' + fix_ext(ext)
+                new_name = os.path.basename(os.path.dirname(save_dir)) + " - " + 'S' + season + 'E' + ep + " - " + file_name + '.' + fix_ext(ext)
                 logger.info(f'{new_name}')
                 if move_up_to_season_folder:
                     new_path = get_season_path(file_path) + '/' + new_name
+                else:
+                    new_path = parent_folder_path + '/' + new_name
+
+                file_lists.append([file_path, new_path])
+            else:
+                logger.info(f"{'未能识别'}")
+                unknown.append(file_path)
+
+if classification == "Movie":
+    if os.path.isdir(content_dir):
+        logger.info(f"{'文件夹处理'}")
+        logger.info(f'{content_dir}')
+        # 遍历文件夹
+        for root, dirs, files in os.walk(content_dir, False):
+            for name in files:
+
+                # 只处理媒体文件
+                file_name, ext = get_file_name_ext(name)
+                if not ext.lower() in COMPOUND_EXTS:
+                    continue
+
+                # 完整文件路径
+                file_path = os.path.join(root, name).replace('\\', '/')
+                file_path = os.path.abspath(file_path)
+                parent_folder_path = os.path.dirname(file_path)
+
+                # 重命名
+                if save_dir:
+                    new_name = os.path.basename(save_dir) + " - " + name
+                    logger.info(f'{new_name}')
+                    if move_up_to_season_folder:
+                        new_path = save_dir + '/' + new_name
+                    else:
+                        new_path = parent_folder_path + '/' + new_name
+                    file_lists.append([format_path(file_path), format_path(new_path)])
+                else:
+                    logger.info(f"{'未能识别'}")
+                    unknown.append(file_path)
+    else:
+        logger.info(f"{'单文件处理'}")
+        logger.info(f'{content_dir}')
+        file_path = os.path.abspath(content_dir.replace('\\', '/'))
+        file_name, ext = get_file_name_ext(os.path.basename(file_path))
+        parent_folder_path = os.path.dirname(file_path)
+        if ext.lower() in COMPOUND_EXTS:
+            if save_dir:
+                new_name = os.path.basename(save_dir) + " - " + os.path.basename(content_dir)
+                logger.info(f'{new_name}')
+                if move_up_to_season_folder:
+                    new_path = save_dir + '/' + new_name
                 else:
                     new_path = parent_folder_path + '/' + new_name
 

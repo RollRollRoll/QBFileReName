@@ -82,3 +82,45 @@
 2022-04-13 09:43:06,662 - rename - INFO - 重命名延迟等待中...
 2022-04-13 09:43:07,664 - rename - INFO - ('file_lists', [['/Users/chenjinfan/Project/PycharmProjects/qbChangeFileName/files/平家物语（2021）/Season2/[Nekomoe kissaten_LoliHouse] Heike Monogatari [WebRip 1080p HEVC-10bit AAC ASSx2]/[Nekomoe kissaten_LoliHouse] Heike Monogatari - 02 [WebRip 1080p HEVC-10bit AAC ASSx2].mkv', '/Users/chenjinfan/Project/PycharmProjects/qbChangeFileName/files/平家物语（2021）/Season2/平家物语（2021） - S02E02 - [Nekomoe kissaten_LoliHouse] Heike Monogatari - 02 [WebRip 1080p HEVC-10bit AAC ASSx2].mkv'], ['/Users/chenjinfan/Project/PycharmProjects/qbChangeFileName/files/平家物语（2021）/Season2/[Nekomoe kissaten_LoliHouse] Heike Monogatari [WebRip 1080p HEVC-10bit AAC ASSx2]/[Nekomoe kissaten_LoliHouse] Heike Monogatari - 07 [WebRip 1080p HEVC-10bit AAC ASSx2].mkv', '/Users/chenjinfan/Project/PycharmProjects/qbChangeFileName/files/平家物语（2021）/Season2/平家物语（2021） - S02E07 - [Nekomoe kissaten_LoliHouse] Heike Monogatari - 07 [WebRip 1080p HEVC-10bit AAC ASSx2].mkv'], ['/Users/chenjinfan/Project/PycharmProjects/qbChangeFileName/files/平家物语（2021）/Season2/[Nekomoe kissaten_LoliHouse] Heike Monogatari [WebRip 1080p HEVC-10bit AAC ASSx2]/[Nekomoe kissaten_LoliHouse] Heike Monogatari - 09 [WebRip 1080p HEVC-10bit AAC ASSx2].mkv', '/Users/chenjinfan/Project/PycharmProjects/qbChangeFileName/files/平家物语（2021）/Season2/平家物语（2021） - S02E09 - [Nekomoe kissaten_LoliHouse] Heike Monogatari - 09 [WebRip 1080p HEVC-10bit AAC ASSx2].mkv'], ['/Users/chenjinfan/Project/PycharmProjects/qbChangeFileName/files/平家物语（2021）/Season2/[Nekomoe kissaten_LoliHouse] Heike Monogatari [WebRip 1080p HEVC-10bit AAC ASSx2]/[Nekomoe kissaten_LoliHouse] Heike Monogatari - 04 [WebRip 1080p HEVC-10bit AAC ASSx2].mkv', '/Users/chenjinfan/Project/PycharmProjects/qbChangeFileName/files/平家物语（2021）/Season2/平家物语（2021） - S02E04 - [Nekomoe kissaten_LoliHouse] Heike Monogatari - 04 [WebRip 1080p HEVC-10bit AAC ASSx2].mkv'], ['/Users/chenjinfan/Project/PycharmProjects/qbChangeFileName/files/平家物语（2021）/Season2/[Nekomoe kissaten_LoliHouse] Heike Monogatari [WebRip 1080p HEVC-10bit AAC ASSx2]/[Nekomoe kissaten_LoliHouse] Heike Monogatari - 11 [WebRip 1080p HEVC-10bit AAC ASSx2].mkv', '/Users/chenjinfan/Project/PycharmProjects/qbChangeFileName/files/平家物语（2021）/Season2/平家物语（2021） - S02E11 - [Nekomoe kissaten_LoliHouse] Heike Monogatari - 11 [WebRip 1080p HEVC-10bit AAC ASSx2].mkv']])
 2022-04-13 09:43:07,668 - rename - INFO - 运行完毕
+2022-04-15 17:31:28,301 - rename - INFO - 文件夹处理
+2022-04-15 17:31:28,301 - rename - INFO - /Users/chenjinfan/Project/PycharmProjects/QBFileReName/files/魔法少女☆伊莉雅：无名的少女 (2021)/download
+2022-04-15 17:41:00,683 - rename - INFO - 文件夹处理
+2022-04-15 17:41:00,683 - rename - INFO - /Users/chenjinfan/Project/PycharmProjects/QBFileReName/files/魔法少女☆伊莉雅：无名的少女 (2021)/download
+2022-04-15 17:41:12,869 - rename - INFO - 文件夹处理
+2022-04-15 17:41:12,869 - rename - INFO - /Users/chenjinfan/Project/PycharmProjects/QBFileReName/files/魔法少女☆伊莉雅：无名的少女 (2021)/download
+2022-04-15 17:41:12,869 - rename - INFO - 魔法少女☆伊莉雅：无名的少女 (2021) - 1.mp4
+2022-04-15 17:41:12,869 - rename - INFO - 魔法少女☆伊莉雅：无名的少女 (2021) - 1.srt
+2022-04-15 17:41:12,869 - rename - INFO - 重命名延迟等待中...
+2022-04-15 17:41:42,875 - rename - INFO - ('file_lists', [['/Users/chenjinfan/Project/PycharmProjects/QBFileReName/files/魔法少女☆伊莉雅：无名的少女 (2021)/download/1.mp4', '/Users/chenjinfan/Project/PycharmProjects/QBFileReName/files/魔法少女☆伊莉雅：无名的少女 (2021)/魔法少女☆伊莉雅：无名的少女 (2021) - 1.mp4'], ['/Users/chenjinfan/Project/PycharmProjects/QBFileReName/files/魔法少女☆伊莉雅：无名的少女 (2021)/download/1.srt', '/Users/chenjinfan/Project/PycharmProjects/QBFileReName/files/魔法少女☆伊莉雅：无名的少女 (2021)/魔法少女☆伊莉雅：无名的少女 (2021) - 1.srt']])
+2022-04-15 17:41:42,879 - rename - INFO - 运行完毕
+2022-04-15 17:42:07,249 - rename - INFO - 单文件处理
+2022-04-15 17:42:07,249 - rename - INFO - /Users/chenjinfan/Project/PycharmProjects/QBFileReName/files/魔法少女☆伊莉雅：无名的少女 (2021)/download
+2022-04-15 17:42:42,449 - rename - INFO - 单文件处理
+2022-04-15 17:42:42,449 - rename - INFO - /Users/chenjinfan/Project/PycharmProjects/QBFileReName/files/魔法少女☆伊莉雅：无名的少女 (2021)/download
+2022-04-15 17:42:50,002 - rename - INFO - 单文件处理
+2022-04-15 17:42:50,002 - rename - INFO - /Users/chenjinfan/Project/PycharmProjects/QBFileReName/files/魔法少女☆伊莉雅：无名的少女 (2021)/download
+2022-04-15 17:43:33,785 - rename - INFO - 单文件处理
+2022-04-15 17:43:33,785 - rename - INFO - /Users/chenjinfan/Project/PycharmProjects/QBFileReName/files/魔法少女☆伊莉雅：无名的少女 (2021)/download/22.mkv
+2022-04-15 17:43:48,260 - rename - INFO - 单文件处理
+2022-04-15 17:43:48,260 - rename - INFO - /Users/chenjinfan/Project/PycharmProjects/QBFileReName/files/魔法少女☆伊莉雅：无名的少女 (2021)/download/22.mkv
+2022-04-15 17:44:15,007 - rename - INFO - 单文件处理
+2022-04-15 17:44:15,007 - rename - INFO - /Users/chenjinfan/Project/PycharmProjects/QBFileReName/files/魔法少女☆伊莉雅：无名的少女 (2021)/download/22.mkv
+2022-04-15 17:44:15,007 - rename - INFO - 魔法少女☆伊莉雅：无名的少女 (2021) - 22.mkv
+2022-04-15 17:44:15,007 - rename - INFO - 重命名延迟等待中...
+2022-04-15 17:44:45,008 - rename - INFO - ('file_lists', [['/Users/chenjinfan/Project/PycharmProjects/QBFileReName/files/魔法少女☆伊莉雅：无名的少女 (2021)/download/22.mkv', '/Users/chenjinfan/Project/PycharmProjects/QBFileReName/files/魔法少女☆伊莉雅：无名的少女 (2021)/魔法少女☆伊莉雅：无名的少女 (2021) - 22.mkv']])
+2022-04-15 17:44:45,009 - rename - INFO - 运行完毕
+2022-04-15 17:46:08,147 - rename - INFO - 单文件处理
+2022-04-15 17:46:08,147 - rename - INFO - /Users/chenjinfan/Project/PycharmProjects/QBFileReName/files/魔法少女☆伊莉雅：无名的少女 (2021)/download/22.mkv
+2022-04-15 17:46:08,148 - rename - INFO - 魔法少女☆伊莉雅：无名的少女 (2021) - 22.mkv
+2022-04-15 17:46:08,148 - rename - INFO - 重命名延迟等待中...
+2022-04-15 17:46:38,155 - rename - INFO - ('file_lists', [['/Users/chenjinfan/Project/PycharmProjects/QBFileReName/files/魔法少女☆伊莉雅：无名的少女 (2021)/download/22.mkv', '/Users/chenjinfan/Project/PycharmProjects/QBFileReName/files/魔法少女☆伊莉雅：无名的少女 (2021)/魔法少女☆伊莉雅：无名的少女 (2021) - 22.mkv']])
+2022-04-15 17:47:54,647 - rename - INFO - 单文件处理
+2022-04-15 17:47:54,647 - rename - INFO - /Users/chenjinfan/Project/PycharmProjects/QBFileReName/files/魔法少女☆伊莉雅：无名的少女 (2021)/22.mkv
+2022-04-15 17:47:54,647 - rename - INFO - 魔法少女☆伊莉雅：无名的少女 (2021) - 22.mkv
+2022-04-15 17:47:54,648 - rename - INFO - 重命名延迟等待中...
+2022-04-15 17:48:24,653 - rename - INFO - ('file_lists', [['/Users/chenjinfan/Project/PycharmProjects/QBFileReName/files/魔法少女☆伊莉雅：无名的少女 (2021)/22.mkv', '/Users/chenjinfan/Project/PycharmProjects/QBFileReName/files/魔法少女☆伊莉雅：无名的少女 (2021)/魔法少女☆伊莉雅：无名的少女 (2021) - 22.mkv']])
+2022-04-15 17:48:24,655 - rename - INFO - 运行完毕
+2022-04-15 17:48:41,406 - rename - INFO - 单文件处理
+2022-04-15 17:48:41,406 - rename - INFO - /Users/chenjinfan/Project/PycharmProjects/QBFileReName/files/魔法少女☆伊莉雅：无名的少女 (2021)/22.mkv
+2022-04-15 17:48:41,406 - rename - INFO - 魔法少女☆伊莉雅：无名的少女 (2021) - 22.mkv
+2022-04-15 17:48:41,406 - rename - INFO - 重命名延迟等待中...
